@@ -13,7 +13,6 @@ public class Fib {
 	 * Assume non-negative n
 	 */
 	public static long fib(int n) {
-		//count++;
 		// base case: fib(0) = fib(1) = 1
 		if(n == 0 || n == 1) {
 			return 1;
