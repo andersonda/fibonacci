@@ -11,6 +11,10 @@ public class Fibonacci {
         }
     }
 
+    /*
+        Prints out the fibonacci sequence starting with
+        start and ending with end
+     */
     public static void printSequence(int start, int end){
         for(int i = start; i <= end; i++){
             System.out.println(i + " " + fib(i));
